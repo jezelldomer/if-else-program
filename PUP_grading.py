@@ -12,11 +12,17 @@ elif percent >= 85 and percent <= 87:
     print ("Grade/Mark is 2.0. Good")
 elif percent >= 82 and percent <= 84:
     print ("Grade/Mark is 2.25. Good")
-elif percent >= 79 and percent <= 81
+elif percent >= 79 and percent <= 81:
     print ("Grade/Mark is 2.5. Satisfactory")
 elif percent >= 76 and percent <= 78:
-    print ("Grade/Mark is 2.75 is Satisfactory")
+    print ("Grade/Mark is 2.75. Satisfactory")
 elif percent == 75:
-    print ("Grade/Mark is 3.0 is Passing")
+    print ("Grade/Mark is 3.0. Passing")
 elif percent >= 65 and percent <= 74:
-    print ("Grade/Mark is 5.0 is Failure")
+    print ("Grade/Mark is 5.0. Failure")
+elif percent > 100:
+    print ("Invalid input. Please enter a valid input percentage. ")
+else:
+    print ("(Inc.)incomplete or (W)withdrawn or (D)dropped. ")
+
+print ("--Done--")
