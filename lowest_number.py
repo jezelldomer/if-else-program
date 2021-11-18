@@ -19,7 +19,7 @@ def smallest(num1, num2, num3):
         smallest_num = num2
     else:
         smallest_num = num3
-    print("The smallest number between the 3 is: ", smallest_num:,.2f)
+    print("The smallest number between the 3 is: ", smallest_num)
 
 largest(number1, number2, number3)
 smallest(number1, number2, number3)
